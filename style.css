@@ -1,0 +1,58 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Open Sans", sans-serif;}
+/* Flex Content */
+.Banner{ background-color: #02918c;
+}
+.menu li:hover{background-color: #cfc91d;}
+.Container{display: flex;
+    justify-content: space-between;
+     list-style: none;
+    height: 60px;
+   margin-left: 44px;
+   margin-right: 44px;
+   align-items: center;
+}
+
+/* header portion */
+Nav ul li{list-style: none;
+color: #ffffff;
+padding: 20px;
+font-weight: 800;
+font-size: 12pt;
+}    
+
+section{background-image:url(./MYFOLIO.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 867px;
+color: #ffffff;}
+/* .writing h3{
+    align-items: center; */
+ /* .writing h1{text-align: center;}
+.writing p {text-align: center;} */
+.star{display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 890px;}
+h3{font-size: 20pt;}
+h1{font-size: 56pt;
+font-weight: 800;
+text-transform: uppercase;
+letter-spacing: 25px;
+word-spacing: 30px;
+le}
+p{font-size: 14pt;}
+.star div img{height: 32x;
+padding: 50px;}
+.last{line-height: 35px;
+padding:5px 40px;
+background-color: #cfc91d;
+color: black;
+font-size: 14pt;
+font-weight: 800;}
+.last:hover{
+background-color:rgba(0, 255, 119, 0.878);}
